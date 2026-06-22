@@ -1,4 +1,4 @@
-package org.emmfogo.agregacion;
+package org.emmfogo.agregacion.enums;
 
 public enum EstadoCivilEnum {
     SOLTERO,
