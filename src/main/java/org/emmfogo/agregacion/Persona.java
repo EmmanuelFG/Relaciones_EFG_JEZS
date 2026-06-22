@@ -1,5 +1,7 @@
 package org.emmfogo.agregacion;
 
+import org.emmfogo.agregacion.enums.EstadoCivilEnum;
+
 public class Persona {
     private final EstadoCivilEnum estadoCivil;
     private final int edad;
@@ -11,5 +13,9 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    
+    public int getEdad() {
+        return this.edad;
+    }
+
+
 }
